@@ -16,7 +16,7 @@ function App() {
   return (
     <Router>
       <ThemeContext.Provider value={{ theme, setTheme }}>
-        <div className={`${theme} ${theme == "dark" ? "bg-[#121212]" : null}`}>
+        <div className={`${theme} ${theme == "dark" ? "bg-[#121212]" : null} min-h-[100vh]`}>
           <Header />
           <Routes>
             <Route path="/" element={<Home />} />

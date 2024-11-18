@@ -1,4 +1,4 @@
-import { useContext, useEffect, useState } from "react";
+import { useContext, useEffect, } from "react";
 import { HiMoon, HiOutlineMagnifyingGlass, HiSun } from "react-icons/hi2";
 import { ThemeContext } from "../../Context/ThemeContext";
 
